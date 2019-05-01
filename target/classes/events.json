@@ -1,24 +1,61 @@
 [
  {
-  "name": "Dentist 4",
+  "name": "Dentist 1",
   "start": "2019-05-28T09:00:00+02:00",
   "duration":  "1200000",
   "description": "I have to ask for a better toothpaste",
-  "location": "London",
-  "reminder": "2019-05-27T09:00:00"
+  "location": "Piekna 20/11 Bydgoszcz",
+  "reminder": "2019-05-27T09:00:00+02:00"
+ },
+ {
+  "name": "Dentist 2",
+  "start": "2019-05-29T09:00:00+02:00",
+  "duration": "2400000",
+  "description": "I have to ask for a better toothbrush",
+  "reminder": "2019-05-27T09:00:00+02:00"
+ },
+ {
+  "name": "Dentist 3",
+  "start": "2019-05-30T09:00:00+02:00",
+  "duration": "3600000",
+  "description": "I have to ask for additional treatment",
+  "location": "Piotrowo 3A Poznan"
+ },
+ {
+  "name": "Dentist 4",
+  "start": "2019-05-30T18:00:00+02:00",
+  "duration": "3600000",
+  "description": "New dentist :)",
+  "location": "Warszawa"
  },
  {
   "name": "Dentist 5",
-  "start": "2019-05-29T09:00:00+02:00",
-  "duration": "2400000",
-  "description": "I have to ask for a better toothpaste",
-  "reminder": "2019-05-27T09:00:00"
+  "start": "2019-05-31T09:00:00+02:00",
+  "duration": "86400000"
  },
  {
   "name": "Dentist 6",
-  "start": "2019-05-30T09:00:00+02:00",
-  "duration": "3600000",
-  "description": "I have to ask for a better toothpaste",
-  "location": "Moscow"
+  "start": "2019-05-30T09:00:00+00:00",
+  "duration": "3600000"
+ },
+ {
+  "name": "Dentist 7",
+  "start": "2019-06-01T09:00:00-07:00",
+  "duration": "3600000"
+ },
+ {
+  "name": "Dentist 8",
+  "start": "2019-06-02T09:00:00+02:00",
+  "duration": "3600000"
+ },
+ {
+  "name": "Dentist 9",
+  "start": "2019-06-03T09:00:00+00:00",
+  "duration": "3600000"
+ },
+ {
+  "name": "Dentist 10",
+  "start": "2019-06-04T09:00:00+03:00",
+  "duration": "3600000"
  }
 ]

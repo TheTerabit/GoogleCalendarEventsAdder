@@ -7,7 +7,6 @@ import com.google.api.client.util.DateTime;
 import lombok.Builder;
 import lombok.Data;
 
-
 @Builder
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
