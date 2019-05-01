@@ -22,7 +22,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class GoogleCalendarConnector {
-    private static final String APPLICATION_NAME = "Google Calendar API Java Quickstart";
+    private static final String APPLICATION_NAME = "Google Calendar API Java EventsAdder";
     private static final JsonFactory JSON_FACTORY = JacksonFactory.getDefaultInstance();
     private static final String TOKENS_DIRECTORY_PATH = "tokens";
     /**

@@ -29,7 +29,8 @@ public class GoogleCalendarEventsAdderApplication {
             Event event = new Event()
                     .setLocation(jsonEvent.getLocation())
                     .setDescription(jsonEvent.getDescription())
-                    .setSummary(jsonEvent.getName());
+                    .setSummary(jsonEvent.getName())
+                    .setVisibility("public");
             DateTime startDateTime = jsonEvent.getStart();
 
             EventDateTime start = new EventDateTime()
