@@ -10,9 +10,10 @@ import java.util.List;
 
 public class EventsDao {
 
+    private final ObjectMapper mapper = new ObjectMapper();
+
     public List<EventModel> getData(String jsonName) throws IOException {
 
-        ObjectMapper mapper = new ObjectMapper();
         FileReader reader = new FileReader(System.getProperty("user.dir")+"\\src\\main\\resources\\"+jsonName);
         List<EventModel> events = mapper.readValue(reader, new TypeReference<List<EventModel>>(){});
 
